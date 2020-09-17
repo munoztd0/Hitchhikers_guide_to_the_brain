@@ -6,13 +6,18 @@
 
 First thing will be get you hands on a linux distro, we will assume you chose Ubuntu [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/) [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733), but most of the debian-based distro should work as well.
 
-### Install Matlab (only works if you are on the UniGE VPN)
+### Install Matlab on Linux (only works if you are on the UniGE VPN)
 
 Download Matlab 2019a (it is the most recent versions that works fine the ones above won't work)
+[download Matlab r2019a](https://drive.switch.ch/index.php/s/m8PCkw6tKJo40DH) (you might need a switchdrive account)
 
 Open up a terminal (ctrl+alt+t) and copy paste these lines
 ```markdown
-cd ~/Dowloads/matlab/
+cd ~/Dowloads/
+unzip matlab.zip
+cd matlab
+unzip matlab_R2019a_glnxa64.zip
+# for MAC OS use:  unzip matlab_R2019a_maci64.dmg.zip instead
 sudo ./install
 ```
 
@@ -22,7 +27,9 @@ Then, when asked for the network license you need to select the "network.lic" fi
 
 Finish the installation and go back to the terminal. 
 ```markdown
+# replace "cisa" by YOUR USERNAME
 sudo chmown -R cisa /usr/local/MATLAB/R2019/
+# for MAC OS use: sudo chmown -R XX
 matlab &
 ``
 
