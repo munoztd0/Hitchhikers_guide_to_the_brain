@@ -1,8 +1,8 @@
 ## Welcome to my little guide
 
-[editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_Linux/edit/gh-pages/index.md) 
+[editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/edit/gh-pages/index.md) 
 
-[link to guide](https://munoztd0.github.io/Hitchhikers_guide_Linux/)
+[link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
 
 
 ## Install Linux
@@ -66,5 +66,5 @@ matlab &
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_Linux/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
