@@ -8,8 +8,7 @@ First thing will be get you hands on a linux distro, we will assume you chose Ub
 
 ### Install Matlab on Linux (only works if you are on the UniGE VPN)
 
-Download Matlab 2019a (it is the most recent versions that works fine the ones above won't work)
-[download Matlab r2019a](https://drive.switch.ch/index.php/s/m8PCkw6tKJo40DH) (you might need a switchdrive account)
+[Download Matlab r2019a](https://drive.switch.ch/index.php/s/m8PCkw6tKJo40DH) it is the most recent versions that works fine the ones above won't work (and you might need a switchdrive account)
 
 Open up a terminal (ctrl+alt+t) and copy paste these lines
 ```markdown
