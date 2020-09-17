@@ -9,6 +9,8 @@
 
 First thing will be get you hands on a linux distro, we will assume you chose Ubuntu [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/) [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733), but most of the debian-based distro should work as well.
 
+### Install VPN unige
+
 ### Install Matlab on Linux (only works if you are on the UniGE VPN)
 
 [Download Matlab r2019a](https://drive.switch.ch/index.php/s/m8PCkw6tKJo40DH) it is the most recent versions that works fine the ones above won't work (and you might need a switchdrive account)
