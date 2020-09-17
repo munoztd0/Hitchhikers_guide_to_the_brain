@@ -29,7 +29,7 @@ Then, when asked for the network license you need to select the "network.lic" fi
 
 Finish the installation and go back to the terminal. 
 ```markdown
-# replace "cisa" by YOUR USERNAME
+# replace _cisa_ by YOUR USERNAME
 sudo chmown -R cisa /usr/local/MATLAB/R2019/
 # for MAC OS use: sudo chmown -R XX
 matlab &
