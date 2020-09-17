@@ -32,7 +32,7 @@ Finish the installation and go back to the terminal.
 sudo chmown -R cisa /usr/local/MATLAB/R2019/
 //for MAC OS use: sudo chmown -R XX
 matlab &
-``
+```
 
 # for Mac
 # for windows
