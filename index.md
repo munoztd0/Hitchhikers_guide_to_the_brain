@@ -24,15 +24,22 @@ Finish the installation and go back to the terminal.
 ```markdown
 sudo chmown -R cisa /usr/local/MATLAB/R2019/
 matlab &
-```
+``
+
+# for Mac
+# for windows
+
+# Anaconda
+# FSL
+# AFNI
+# Rstudio
+# Zotero
 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+# Bonus
+# scripts
+# vsCode
+# TOdo
 
 - Bulleted
 - List
@@ -43,14 +50,9 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_Linux/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
