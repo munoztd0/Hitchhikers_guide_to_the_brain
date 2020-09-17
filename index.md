@@ -1,6 +1,7 @@
 ## Welcome to my little guide
 
 [editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_Linux/edit/gh-pages/index.md) 
+
 [link to guide](https://munoztd0.github.io/Hitchhikers_guide_Linux/)
 
 
