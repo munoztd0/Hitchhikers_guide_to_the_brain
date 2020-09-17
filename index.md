@@ -35,20 +35,21 @@ sudo chmown -R cisa /usr/local/MATLAB/R2019/
 matlab &
 ```
 
-# for Mac
-# for windows
+### for Mac
+### for windows
 
-# Anaconda
-# FSL
-# AFNI
-# Rstudio
-# Zotero
+### Anaconda
+### FSL
+### AFNI
+### Rstudio
+### Zotero
 
 
 # Bonus
-# scripts
-# vsCode
-# TOdo
+### scripts
+### vsCode
+### TOdo
+### Timeshift
 
 - Bulleted
 - List
