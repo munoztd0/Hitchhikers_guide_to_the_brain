@@ -1,6 +1,8 @@
 ## Welcome to my little guide
 
 [editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_Linux/edit/gh-pages/index.md) 
+[link to guide](https://munoztd0.github.io/Hitchhikers_guide_Linux/)
+
 
 ## Install Linux
 
@@ -26,9 +28,9 @@ Then, when asked for the network license you need to select the "network.lic" fi
 
 Finish the installation and go back to the terminal. 
 ```markdown
-# replace "cisa" by YOUR USERNAME
+//replace "cisa" by YOUR USERNAME
 sudo chmown -R cisa /usr/local/MATLAB/R2019/
-# for MAC OS use: sudo chmown -R XX
+//for MAC OS use: sudo chmown -R XX
 matlab &
 ``
 
