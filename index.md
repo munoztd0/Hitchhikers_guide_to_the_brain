@@ -1,4 +1,6 @@
-# Welcome to my little guide
+# Welcome to my little Hitchhiker's guide to the brain
+
+_'So once you do know what the question actually is, you'll know what the answer means.'_  Douglas Adams
 
 [editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/edit/gh-pages/index.md) 
 
