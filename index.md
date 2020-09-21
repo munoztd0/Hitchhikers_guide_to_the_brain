@@ -23,7 +23,7 @@ Go to [matlab home page](https://ch.mathworks.com/)
 Create an account or sign in and add a license number (2537).
 Then click on the license to start the dowload menu. Choose whatever OS you need (Linux, Mac, Windows).
 Choose the version of matlab. Here I recommend you choose matlab 2019a since the newer version have issue with the server license authentification (at least for Mac and Linux).
-Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a switch account).
+Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a _Switch_ account).
 
 ## 3. Install Matlab
 ### 3.a For Linux
@@ -81,7 +81,7 @@ Then inside the matlab console
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
-BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "//Applications/MATLAB_R2019a.app/toolbox/spm12" you will put
+BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/spm12" you will put
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
 
 
