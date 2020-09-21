@@ -9,7 +9,7 @@ _'So once you do know what the question actually is, you'll know what the answer
 # Disclaimer
 - Everything _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
 - Some things might defer on Mac OS but if you [install Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew) it will definitely be easier. 
-- I assume your folder names are in English but if they are in an other language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements")
+- I assume your folder names are in english but if they are in another language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements").
 
 # Install Linux (Recommended)
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
