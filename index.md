@@ -81,7 +81,7 @@ Then inside the matlab console
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
-BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/spm12" you will put
+BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/" you will put
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
 
 
