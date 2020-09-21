@@ -15,6 +15,9 @@ First thing will be get you hands on a linux distro, we will assume you chose Ub
 
 [Download Matlab r2019a](https://drive.switch.ch/index.php/s/m8PCkw6tKJo40DH) it is the most recent versions that works fine the ones above won't work (and you might need a switchdrive account)
 
+## Create account MathWorks
+blablba link a licence 2537
+
 Open up a terminal (ctrl+alt+t) and copy paste these lines
 ```markdown
 cd ~/Dowloads/
@@ -32,10 +35,14 @@ Then, when asked for the network license you need to select the "network.lic" fi
 Finish the installation and go back to the terminal. 
 ```markdown
 # replace _cisa_ by YOUR USERNAME
-sudo chmown -R cisa /usr/local/MATLAB/R2019/
-# for MAC OS use: sudo chmown -R XX
+sudo chmown -R cisa /usr/local/MATLAB/R2019a/
+# for MAC OS use you don't need this extra step
 matlab &
 ```
+
+## Install SPM12
+mv -r /Applications/MATLAB_R2019a.app/
+
 
 ### for Mac
 ### for windows
