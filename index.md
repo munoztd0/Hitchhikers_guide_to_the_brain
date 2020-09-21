@@ -50,7 +50,7 @@ sudo chmown -R cisa /usr/local/MATLAB/R2019a/
 ```
 
 ## 5. Install an external toolbox (here -> SPM12)
-[Download SPM (here version 12] (https://www.fil.ion.ucl.ac.uk/spm/software/download/)
+[Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
 
 ### 5.a For Linux 
 ```markdown
