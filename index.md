@@ -2,21 +2,34 @@
 
 _'So once you do know what the question actually is, you'll know what the answer means.'_   Douglas Adams
 
+# Table of contents
+1. [Introduction](#linux)
+2. [Linux / Unix](#linux)
+   <!-- 1. [Sub paragraph](#subparagraph1) -->>
+3. [Matlab (via UniGe)](#matlab)
+3. [IDE](#ide)
+4. [Anaconda / Python](#ananconda)
+5. [FSL](#fsl)
+6. [AFNI](#afni)
+7. [Rstudio / R](#rstudio)
+8. [Zotero / BetterBibTex](#zotero)
+
+
 [editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/edit/gh-pages/index.md) 
 
 [link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
 
-## Disclaimer
+## Introduction <a name="intro"></a>
 - Everything _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
 - Some things might defer on Mac OS but if you [install Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew) it will definitely be easier. 
 - I assume your folder names are in english but if they are in another language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements").
 
-## Install Linux (Recommended)
+## Linux / Unix <a name="linux"></a>
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).
 
 
-## Matlab 
+## Matlab  <a name="matlab"></a>
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
 
@@ -87,14 +100,14 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
 
 
-## Install an IDE (integrated development environment)
+## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
 ![alt text](https://image2.slideserve.com/4300633/slide1-n.jpg)
 
 There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
 ### VS studio
 Get [Visual Studio Code](https://code.visualstudio.com/download) for long and heavy duty coding.
-It has thousand of cool features, great debugging mode, and you can easyly choose which environement profile you want to be in.
+It has thousand of cool features, great deb<a name="introduction"></a>ugging mode, and you can easyly choose which environement profile you want to be in.
 
 ### Vim
 Use Vim to create and tinkle files in your terminal (or when you ssh connect to a remote server) 
@@ -118,23 +131,23 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 
 
 
-### Anaconda
+### Anaconda / Python  <a name="anaconda"></a>
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
 Getting familiar with conda environmments could really get you out of a tone of trouble 
 ![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
 
 
-### FSL
+### FSL  <a name="int4"></a>
 FSL (pronounced "fossil") is pretty easy to [install](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation) through their 'fslinstaller.py'
 BUT be sure to use python2 as follows:
 ```markdown
 sudo apt install python2
 python2 fslinstaller.py
-```
-### AFNI
-### Rstudio
-### Zotero
+``` 
+### AFNI  <a name="afni"></a>
+### Rstudio / R  <a name="rstudio"></a>
+### Zotero  <a name="zotero"></a>
 
 Better BibTex https://github.com/retorquere/zotero-better-bibtex/releases
 right click on the '.xpi' and chose'save link as'
@@ -143,9 +156,8 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 
 
 
-# Bonus
+# Bonus 
 ### scripts
-### vsCode
 ### TOdo
 ### Timeshift
 
