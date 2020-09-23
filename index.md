@@ -89,8 +89,17 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 
 ### Anaconda
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
-It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch and more..
+It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
+Getting familiar with conda environmments could really get you out of a tone of trouble [alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
+
+
 ### FSL
+FSL (pronounced "fossil") is pretty easy to [install](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation) through their 'fslinstaller.py'
+BUT be sure to use python2 as follows:
+```markdown
+sudo apt install python2
+python2 fslinstaller.py
+```
 ### AFNI
 ### Rstudio
 ### Zotero
@@ -98,7 +107,7 @@ It's pretty much a python package manager for data science, it comes with extrem
 Better BibTex https://github.com/retorquere/zotero-better-bibtex/releases
 right click on the '.xpi' and chose'save link as'
 Now form Zotero go to 'Tools' -> 'Add-ons' and under the gear icon choose 'Install add-on from fille..'
-Browse to where you saved the '.xpi' file and that's it!
+Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 
 
 
