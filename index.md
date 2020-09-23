@@ -31,7 +31,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).  
 <p align="center">
-<img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="500">
+<img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="700">
 </p>
 
 ## Matlab  <a name="matlab"></a>
@@ -186,8 +186,11 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 </p>
 
 <p align="center">
-   <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300">
+    <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300"/>
+   <img  src="https://camo.githubusercontent.com/cb196bd3bebb66a6d1c6133618eefd1d1d171caf/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f77696b6970656469616e5f70726f7465737465722e706e67" width="500"/>
 </p>
+
+
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
 
