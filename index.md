@@ -108,7 +108,7 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 ## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
 <p align="center">
-<img src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="500">
+<img src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="700">
 </p>
 
 There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
@@ -156,7 +156,38 @@ sudo apt install python2
 python2 fslinstaller.py
 ``` 
 ### AFNI  <a name="afni"></a>
+AFNI is definitely a bit more trickier (for Linux user at least) but it's really well documented [here](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html)  
+Something that really helped me out was to install 'tcsh' so I could follow their tutorials more strickly (they use C-shell instead of _standard_ 'bash' (Bourne Again SHell) command language which goes along with their geek philosophy)
+```markdown
+sudo apt-get install -y tcsh
+#so you can run their command
+tcsh @update.afni.binaries ...
+```
+After the hustle you might be scared (I was..) by AFNI because the GUI looks more like an ultra confusing pilot cockpit than anything else but.. be brave, its worth it.
+
+
 ### Rstudio / R  <a name="rstudio"></a>
+
+#### Install R (4.0) on Linux!
+If you are on Linux and you absolutely NEED the newest version of R (4.0 at the moment) like I did, you are probably as pissed-off as I was when I saw that it is not anywhere near to be released yet.
+But if you don't fear the bleeding edge, I have a solution for you!
+```markdown
+#be sure to totally remove R if you already installed it 
+sudo apt-get purge r-base* r-recommended r-cran-*
+sudo apt autoremove
+sudo apt update
+
+#You will need this 'key' to acces it (it's a new mirror that is not yet released)
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt update
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+#Install new version of R (4.0)
+sudo apt install r-base r-base-core r-recommended r-base-dev
+```
+Then you can just download [Rstudio](https://rstudio.com/products/rstudio/download/#download) (still no Focal Fossa update though..) and get you other package from there.
+
+
+
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
 
 <p align="center">
@@ -167,13 +198,23 @@ python2 fslinstaller.py
 
 
 ### Zotero  <a name="zotero"></a>
+The snap store version of Zotero didn't work on my machines for whatever reasons so here is another way to get your Zotero working on Linux.
+```markdown
+sudo add-apt-repository ppa:smathot/cogscinl
+sudo apt-get update
+sudo apt-get install zotero-standalone
+```
+#### Install Better BibTex
+Better BibTex is just so much easier to work with since it ouput a comprehensible output so go to [Better BibTex](https://github.com/retorquere/zotero-better-bibtex/releases).  
+Right click on the '.xpi' and chose'save link as'  
+Now form Zotero go to 'Tools' -> 'Add-ons' and under the gear icon choose 'Install add-on from fille..'  
+Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne 
 
-Better BibTex https://github.com/retorquere/zotero-better-bibtex/releases
-right click on the '.xpi' and chose'save link as'
-Now form Zotero go to 'Tools' -> 'Add-ons' and under the gear icon choose 'Install add-on from fille..'
-Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
-
-### Timeshift <a name="backup"></a>
+### Backups <a name="backup"></a>
+#### Simple backups with timeshift (need an external drive though)
+Well this one is a biggie. We are all scared to loose are data so backing it up is a must do. The university suggest to use TSM (tivoli storage manager) but it's garbage. First, it'sa huge pain to install on Linux, second it doesn't alert you if there is a problem to fix, third it's IBM.
+I personnally know someone who lost 3 years worth of work while having TSM installed (not even on Linux so this is not an OS issue) and the university never find a way to restore the data.
+So one solution I personnaly suggest, just buy an external drive (you can have 500Gb for 30$ nowadays so I don't think it's too much to be on the safe side) and install [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/).
 
 # Bonus 
 ### scripts
@@ -193,13 +234,9 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 
 
 <p align="center">
-   <img  src="https://imgs.xkcd.com/comics/machine_learning.png" width="500">
+   <img  src="https://imgs.xkcd.com/comics/machine_learning.png" width="300">
 </p>
 
-
-<p align="center">
-   <img  src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" width="500">
-</p>
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
 
