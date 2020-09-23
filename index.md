@@ -93,6 +93,12 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 ### Rstudio
 ### Zotero
 
+Better BibTex https://github.com/retorquere/zotero-better-bibtex/releases
+right click on the '.xpi' and chose'save link as'
+Now form Zotero go to 'Tools' -> 'Add-ons' and under the gear icon choose 'Install add-on from fille..'
+Browse to where you saved the '.xpi' file and that's it!
+
+
 
 # Bonus
 ### scripts
