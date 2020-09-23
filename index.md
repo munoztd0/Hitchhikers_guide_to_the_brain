@@ -1,6 +1,7 @@
 # Welcome to my little Hitchhiker's guide to the brain
 
-_'So once you do know what the question actually is, you'll know what the answer means.'_   Douglas Adams
+_'So once you do know what the question actually is, you'll know what the answer means.'_   Douglas Adams  
+
 Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 
 # Table of contents
@@ -151,8 +152,8 @@ python2 fslinstaller.py
 ### Rstudio / R  <a name="rstudio"></a>
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
 
-| [![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)  |  [![alt tex](https://imgs.xkcd.com/comics/incident.png)
-|:---:|:---:|:---:|
+| [![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)  |  [![alt tex](https://imgs.xkcd.com/comics/incident.png)](https://imgs.xkcd.com/comics/incident.png)
+
 
 
 ### Zotero  <a name="zotero"></a>
