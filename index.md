@@ -182,15 +182,24 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 ## images
 
 <p align="center">
-   <img  src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" width="500">
+       <img   src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" width="300"/>
+   <img  src="https://imgs.xkcd.com/comics/automation.png" width="300"/>
 </p>
 
 <p align="center">
     <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300"/>
-   <img  src="https://camo.githubusercontent.com/cb196bd3bebb66a6d1c6133618eefd1d1d171caf/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f77696b6970656469616e5f70726f7465737465722e706e67" width="500"/>
+   <img  src="https://www.explainxkcd.com/wiki/images/6/6f/file_extensions.png" width="300"/>
 </p>
 
 
+<p align="center">
+   <img  src="https://imgs.xkcd.com/comics/machine_learning.png" width="500">
+</p>
+
+
+<p align="center">
+   <img  src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" width="500">
+</p>
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
 
