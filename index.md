@@ -87,10 +87,40 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
 
 
+# Install an IDE (integrated development environment)
+Here things might start to get personal... 
+![alt text](https://image2.slideserve.com/4300633/slide1-n.jpg)
+
+There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
+## VS studio
+Get [Visual Studio Code](https://code.visualstudio.com/download) for long and heavy duty coding.
+It has thousand of cool features, great debugging mode, and you can easyly choose which environement profile you want to be in.
+
+## Vim
+Use Vim to create and tinkle files in your terminal (or when you ssh connect to a remote server) 
+```markdown
+sudo apt-get install vim
+vim file.txt 
+```
+### Basics of Vim
+This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges).
+First you will be on a 'read-only' mode
+Press 'a' to insert or modify text (this is just a security so you don't change something by mystake).
+Then you are free to type whatever you want or move to another lign (with the arrow keys the mouse will not help you here!) or press 'ctrl+shift+v' to paste any text you gave copied on your clipboard.
+Press 'esc' to escape the insert mode and go back to 'read-only' mode
+Press ':wq' + 'enter' to save and quit. 
+"Wait whhhat?!"
+So basically the ':' is to start a command, the 'w' is to save ('write') modficiations and 'enter' just runs the command.
+"What if I messed up ?"
+Don't worry, just type ':q!' when you are in the 'read-only' mode and that will close the file without saving (here I added the '!' which is the 'force' command)
+
+
+
 ### Anaconda
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
-Getting familiar with conda environmments could really get you out of a tone of trouble ![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
+Getting familiar with conda environmments could really get you out of a tone of trouble 
+![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
 
 
 ### FSL
