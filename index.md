@@ -139,7 +139,7 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
 Getting familiar with conda environmments could really get you out of a tone of trouble.  <br/>
-<img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="1000">
+<img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="500">
 
 
 ### FSL  <a name="int4"></a>
@@ -154,10 +154,10 @@ python2 fslinstaller.py
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
  <div class="row">
   <div class="column">
-   <img class="center" src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="500">
+   <img class="center" src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="100%">
   </div>
   <div class="column">
-      <img class="center" src="https://imgs.xkcd.com/comics/incident.png" width="500">
+      <img class="center" src="https://imgs.xkcd.com/comics/incident.png" width="100%">
   </div>
 </div> 
 <img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="1000">
