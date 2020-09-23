@@ -186,7 +186,7 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 </p>
 
 <p align="center">
-   <img  src="https://www.facebook.com/photo/?fbid=1307657076052980&set=p.1307657076052980" width="500">
+   <img  src="https://lh3.googleusercontent.com/I4ceQczOKQrb6l4HpjZ5C5P5jPyveTnAw9aoOa05Cff6Dcr34n3YdBE3oGn53jYvlQ3f6A=s170" width="500">
 </p>
 
 
