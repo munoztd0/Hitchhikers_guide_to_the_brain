@@ -90,7 +90,7 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 ### Anaconda
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
-Getting familiar with conda environmments could really get you out of a tone of trouble [alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
+Getting familiar with conda environmments could really get you out of a tone of trouble ![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
 
 
 ### FSL
