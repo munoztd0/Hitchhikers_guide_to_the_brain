@@ -160,7 +160,7 @@ python2 fslinstaller.py
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
 
 <p align="center">
-   <img  src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="250"/>
+   <img  src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="270"/>
    <img  src="https://imgs.xkcd.com/comics/incident.png" width="500"/>
 </p>
 
@@ -178,6 +178,18 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 # Bonus 
 ### scripts
 ### TOdo
+
+## images
+
+<p align="center">
+   <img  src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" width="500">
+</p>
+
+<p align="center">
+   <img  src="https://www.facebook.com/photo/?fbid=1307657076052980&set=p.1307657076052980" width="500">
+</p>
+
+
 
 
 
