@@ -102,17 +102,17 @@ Use Vim to create and tinkle files in your terminal (or when you ssh connect to 
 sudo apt-get install vim
 vim file.txt 
 ```
-### Basics of Vim
-This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges).
-First you will be on a 'read-only' mode
-Press 'a' to insert or modify text (this is just a security so you don't change something by mystake).
-Then you are free to type whatever you want or move to another lign (with the arrow keys the mouse will not help you here!) or press 'ctrl+shift+v' to paste any text you gave copied on your clipboard.
-Press 'esc' to escape the insert mode and go back to 'read-only' mode
-Press ':wq' + 'enter' to save and quit. 
-"Wait whhhat?!"
-So basically the ':' is to start a command, the 'w' is to save ('write') modficiations and 'enter' just runs the command.
-"What if I messed up ?"
-Don't worry, just type ':q!' when you are in the 'read-only' mode and that will close the file without saving (here I added the '!' which is the 'force' command)
+#### Basics of Vim
+This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges).  
+First you will be on a 'read-only' mode.  
+Press 'a' to insert or modify text (this is just a security so you don't change something by mystake).  
+Then you are free to type whatever you want or move to another lign (with the arrow keys the mouse will not help you here!) or press 'ctrl+shift+v' to paste any text you gave copied on your clipboard.  
+Press 'esc' to escape the insert mode and go back to 'read-only' mode.  
+Press ':wq' + 'enter' to save and quit.   
+"Wait whhhat?!"  
+So basically the ':' is to start a command, the 'w' is to save ('write') modficiations and 'enter' just runs the command.  
+"What if I messed up ?"  
+Don't worry, just type ':q!' when you are in the 'read-only' mode and that will close the file without saving (here I added the '!' which is the 'force' command).  
 
 
 
