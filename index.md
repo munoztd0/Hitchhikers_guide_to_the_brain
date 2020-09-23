@@ -150,7 +150,10 @@ python2 fslinstaller.py
 ### AFNI  <a name="afni"></a>
 ### Rstudio / R  <a name="rstudio"></a>
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
-![alt text](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png) | ![alt text](https://imgs.xkcd.com/comics/incident.png)
+
+| [![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)  |  [![alt tex](https://imgs.xkcd.com/comics/incident.png)
+|:---:|:---:|:---:|
+
 
 ### Zotero  <a name="zotero"></a>
 
