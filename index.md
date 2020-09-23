@@ -106,7 +106,7 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 
 ## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
-![alt text](https://image2.slideserve.com/4300633/slide1-n.jpg)
+<img class="center" src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="1000">
 
 There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
 ### VS studio
@@ -139,7 +139,7 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
 Getting familiar with conda environmments could really get you out of a tone of trouble.  <br/>
-![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png =250x250)
+<img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="1000">
 
 
 ### FSL  <a name="int4"></a>
@@ -152,9 +152,15 @@ python2 fslinstaller.py
 ### AFNI  <a name="afni"></a>
 ### Rstudio / R  <a name="rstudio"></a>
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
-
-![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png =250x250)  |  ![alt tex](https://imgs.xkcd.com/comics/incident.png =250x250)
-
+ <div class="row">
+  <div class="column">
+   <img class="center" src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="500">
+  </div>
+  <div class="column">
+      <img class="center" src="https://imgs.xkcd.com/comics/incident.png" width="500">
+  </div>
+</div> 
+<img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="1000">
 
 
 ### Zotero  <a name="zotero"></a>
