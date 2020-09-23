@@ -30,7 +30,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 ## Linux / Unix <a name="linux"></a>
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).
-![alt text](https://www.explainxkcd.com/wiki/images/4/40/cautionary.png)
+![alt text](https://www.explainxkcd.com/wiki/images/4/40/cautionary.png =250x250)
 
 ## Matlab  <a name="matlab"></a>
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
@@ -138,7 +138,7 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
 Getting familiar with conda environmments could really get you out of a tone of trouble.  <br/>
-![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
+![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png =250x250)
 
 
 ### FSL  <a name="int4"></a>
@@ -152,7 +152,7 @@ python2 fslinstaller.py
 ### Rstudio / R  <a name="rstudio"></a>
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
 
-| [![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png)  |  [![alt tex](https://imgs.xkcd.com/comics/incident.png)](https://imgs.xkcd.com/comics/incident.png)
+![alt tex](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png =250x250)  |  ![alt tex](https://imgs.xkcd.com/comics/incident.png =250x250)
 
 
 
