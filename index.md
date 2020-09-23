@@ -30,7 +30,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 ## Linux / Unix <a name="linux"></a>
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).  
-<img class="center" src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="1000">
+<img class="center" src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="500">
 
 
 ## Matlab  <a name="matlab"></a>
@@ -106,7 +106,7 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 
 ## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
-<img class="center" src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="1000">
+<img class="center" src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="500">
 
 There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
 ### VS studio
@@ -154,13 +154,12 @@ python2 fslinstaller.py
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
  <div class="row">
   <div class="column">
-   <img class="center" src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="100%">
+   <img class="center" src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="100">
   </div>
   <div class="column">
-      <img class="center" src="https://imgs.xkcd.com/comics/incident.png" width="100%">
+      <img class="center" src="https://imgs.xkcd.com/comics/incident.png" width="250">
   </div>
 </div> 
-<img class="center" src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="1000">
 
 
 ### Zotero  <a name="zotero"></a>
