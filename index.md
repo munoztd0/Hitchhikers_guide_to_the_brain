@@ -1,6 +1,7 @@
 # Welcome to my little Hitchhiker's guide to the brain
 
 _'So once you do know what the question actually is, you'll know what the answer means.'_   Douglas Adams
+Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 
 # Table of contents
 1. [Introduction](#linux)
@@ -28,7 +29,7 @@ _'So once you do know what the question actually is, you'll know what the answer
 ## Linux / Unix <a name="linux"></a>
 First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).
-
+![alt text](https://www.explainxkcd.com/wiki/images/4/40/cautionary.png)
 
 ## Matlab  <a name="matlab"></a>
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
@@ -148,6 +149,9 @@ python2 fslinstaller.py
 ``` 
 ### AFNI  <a name="afni"></a>
 ### Rstudio / R  <a name="rstudio"></a>
+### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
+![alt text](https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png) | ![alt text](https://imgs.xkcd.com/comics/incident.png)
+
 ### Zotero  <a name="zotero"></a>
 
 Better BibTex https://github.com/retorquere/zotero-better-bibtex/releases
