@@ -160,7 +160,7 @@ python2 fslinstaller.py
 ### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
 
 <p align="center">
-   <img  src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="500"/>
+   <img  src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="250"/>
    <img  src="https://imgs.xkcd.com/comics/incident.png" width="500"/>
 </p>
 
