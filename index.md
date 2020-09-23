@@ -186,7 +186,7 @@ Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne
 </p>
 
 <p align="center">
-   <img  src="https://ibb.co/g3h4Q9w" width="300">
+   <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300">
 </p>
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
