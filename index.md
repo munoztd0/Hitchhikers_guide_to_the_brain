@@ -5,7 +5,7 @@ _'So once you do know what the question actually is, you'll know what the answer
 # Table of contents
 1. [Introduction](#linux)
 2. [Linux / Unix](#linux)
-   <!-- 1. [Sub paragraph](#subparagraph1) -->>
+   <!-- 1. [Sub paragraph](#subparagraph1) -->
 3. [Matlab (via UniGe)](#matlab)
 3. [IDE](#ide)
 4. [Anaconda / Python](#ananconda)
@@ -134,7 +134,7 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 ### Anaconda / Python  <a name="anaconda"></a>
 Has useful as it is easy to do [install](https://docs.anaconda.com/anaconda/install/)
 It's pretty much a python package manager for data science, it comes with extremely cool packages such as: Jupyter, SciPy, Spyder, NumPy, ScikitLearn, Pandas, TensorFlow, Matplotlib, Pytorch that you should look into.
-Getting familiar with conda environmments could really get you out of a tone of trouble 
+Getting familiar with conda environmments could really get you out of a tone of trouble.  <br/>
 ![alt text](https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png)
 
 
