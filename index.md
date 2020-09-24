@@ -218,7 +218,9 @@ So one solution I personnaly suggest, just buy an external drive (you can have 5
 
 # Bonus 
 #### GIMP
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp #instead of bad snap
+sudo add-apt-repository ppa:ubuntuhandbook1/gimp
+sudo apt update
+sudo apt install gimp gimp-gmic
 ### scripts
 ### TOdo
 
