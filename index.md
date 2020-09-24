@@ -217,6 +217,8 @@ I personnally know someone who lost 3 years worth of work while having TSM insta
 So one solution I personnaly suggest, just buy an external drive (you can have 500Gb for 30$ nowadays so I don't think it's too much to be on the safe side) and install [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/).
 
 # Bonus 
+#### GIMP
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp #instead of bad snap
 ### scripts
 ### TOdo
 
