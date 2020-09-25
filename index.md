@@ -221,6 +221,11 @@ So one solution I personnaly suggest, just buy an external drive (you can have 5
 sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 sudo apt update
 sudo apt install gimp gimp-gmic
+#### Just for fun
+sudo visudo
+Dafaults insults
+
+the -fuck command
 ### scripts
 ### TOdo
 
