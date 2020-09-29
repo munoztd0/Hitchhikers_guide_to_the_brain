@@ -16,6 +16,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 7. [Rstudio / R](#rstudio)
 8. [Zotero / BetterBibTex](#zotero)
 9. [Timeshift / Backups](#backup)
+9. [Cool tips / Hacks / Tweaks](#tweaks)
 
 
 [editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/edit/gh-pages/index.md) 
@@ -262,14 +263,22 @@ Well this one is a biggie. We are all scared to loose are data so backing it up 
 I personnally know someone who lost 3 years worth of work while having TSM installed (not even on Linux so this is not an OS issue) and the university never find a way to restore the data.
 So one solution I personnaly suggest, just buy an external drive (you can have 500Gb for 30$ nowadays so I don't think it's too much to be on the safe side) and install [Timeshift](https://itsfoss.com/backup-restore-linux-timeshift/).
 
-# Bonus 
-#### GIMP
+### Cool software <a name="tweaks"></a>
+#### GIMP #the snap one doesn't work properly
 sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 sudo apt update
 sudo apt install gimp gimp-gmic
-#### Just for fun
+
+### Fun hacks (AKA just for fun)
+#### Install "insults" to linux
+This will make your terinal "insult" you every time you mistype your password (it's hilarious trust me)
+```markdown
 sudo visudo
+#you are now inside vi in "read" mode
+#press "a" to be in the "insert" mode
+#move to a line below  # Override built-in defaults
 Dafaults insults
+```
 the -fuck command
 
 #### Tweaking your computer (on cisa's Dell desktops)
