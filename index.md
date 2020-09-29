@@ -28,7 +28,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 - I assume your folder names are in english but if they are in another language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements").
 
 ## Linux / Unix <a name="linux"></a>
-First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
+First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie and Pop!OS, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
 You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).  
 <p align="center">
 <img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="700">
@@ -270,8 +270,19 @@ sudo apt install gimp gimp-gmic
 #### Just for fun
 sudo visudo
 Dafaults insults
-
 the -fuck command
+
+#### Tweaking your computer (on cisa's Dell desktops)
+First and foremost you should NEVER tweak boot options if you are not 200% sure of what you are doing. Now if you want (as I did) to speed up your boot time, I found out that disabling the (unused) legacy boot mode (since I assume that you are running UEFI boot on most linux distros).
+
+Just press F2 (or maybe F12 depending on your model) at the sight of the Dell logo until you see the [BIOS menu](https://kbimg.dell.com/library/KB/DELL_ORGANIZATIONAL_GROUPS/DELL_GLOBAL/Content%20Team/UEFI_BIOS_Add_Boot_Option.png). From there you can change your Boot list options from Legacy to UEFI. Then you should [disable (uncheck) Legacy Option ROMs](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dell.com%2Fsupport%2Farticle%2Fde-ch%2Fsln306176%2Fxps-13-9365-slow-post-and-poor-performance-in-bios&psig=AOvVaw0WmMWuLP2GPnlESRTFIZ0i&ust=1601472719428000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLirmve8juwCFQAAAAAdAAAAABAD). Then, under the "Security" tab
+you should now disable Secure boot. Save, apply and restart. That's it you will boot in ~12 seconds now instead of the huge 1m30 before.
+
+expliqer comment ls -n softlink tidy
+
+Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?usp=sharing
+
+
 ### scripts
 ### TOdo
 
