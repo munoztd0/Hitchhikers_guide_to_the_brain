@@ -1,6 +1,6 @@
 # Welcome to my little Hitchhiker's guide to the brain
 
-_'So once you do know what the question actually is, you'll know what the answer means.'_   Douglas Adams  
+_'So once you do know what the question actually is, you'll know what the answer means.'_     -Douglas Adams  
 
 Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 
@@ -71,6 +71,9 @@ sudo chmown -R cisa /usr/local/MATLAB/R2019a/
 
 ### 5. Install an external toolbox (here -> SPM12)
 [Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
+I also personally recommend to install/take a look at these extensions according to your needs:
+[Design optimisation](https://www.bobspunt.com/easy-optimize-x/) by Bob spunt
+[EEG lab](https://sccn.ucsd.edu/eeglab/download.php) for timeseries analysis
 
 #### 5.a For Linux 
 ```markdown
@@ -101,8 +104,51 @@ Then inside the matlab console
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
-BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/" you will put
+
+### 5.2 Install a SPM extensions
+If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/" you will put
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
+
+For example to install MarsBar on mac:
+Go to [SPM extensions](https://www.fil.ion.ucl.ac.uk/spm/ext/) and download MarsBar
+```markdown
+cd ~/Downloads
+unzip marsbar-0.44.zip ## replace 0.44 by the version you have downloaded
+sudo mv -r ~/Downloads/marsbar-0.44 /usr/local/MATLAB/R2019a/toolbox/spm12/toolbox/marsbar #here I change the name "marsbar-0.44" to "marsbar" so its easier to remember and deal with 
+matlab & #this will open a matlab instance
+```
+Then inside the matlab console
+```markdown
+addpath /Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/marsbar
+savepath
+```
+
+I personally recommend to install/take a look at these SPM extensions:
+
+Modeling:
+-MACS Model Assessment, Comparison and Selection (really useful to do BMS)
+-MRM Multivariate and Repeated Measures (my personal favorite for repeated measures second level analyisis + permutation based inferences)
+-RobustWLS Robust regression using Weighted-least-squares 
+-SnPM Statistical Nonparametric Mapping
+-SwE Sandwich Estimator Toolbox for Longitudinal & Repeated Measures Data
+
+ROI analysis - Anatomical proability masks:
+-MarsBar MARSeille Boite A Region d'interet (must have for creating ROI + super fun documentation)
+-SPM Anatomy toolbox
+
+Connectivity and PPI:
+-CONN Functional Connectivity Toolbox (really cool and simple to use)
+-gPPI 
+
+Display:
+-Bspmview (really cool user interface for exploring statistical images)
+
+Experimental design;
+-fMRIPower (power calculation for fMRI)
+
+PsychoPhysio:
+-[PsPM](https://github.com/bachlab/PsPM) not in the spm extensions website (but SHOULD be installed as an extension)
+
 
 
 ## IDE (integrated development environment)  <a name="ide"></a>
