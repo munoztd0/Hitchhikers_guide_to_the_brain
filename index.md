@@ -226,12 +226,17 @@ sudo apt update
 
 #You will need this 'key' to acces it (it's a new mirror that is not yet released)
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+#sudo apt install libssl-dev # install libraries
 sudo apt update
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
 #Install new version of R (4.0)
-sudo apt install r-base r-base-core r-recommended r-base-dev
+sudo apt install r-base r-base-core r-recommended r-base-dev gdebi-core
+#Then you can just download [Rstudio](https://rstudio.com/products/rstudio/download/#download) (still no Focal Fossa update though..)
+#or via wget 
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5042-amd64.deb # that works for ubuntu 20 others might not
+sudo gdebi rstudio-1.2.5042-amd64.deb
 ```
-Then you can just download [Rstudio](https://rstudio.com/products/rstudio/download/#download) (still no Focal Fossa update though..) and get you other package from there.
+ and get you other package from Rstudio now.
 
 
 
