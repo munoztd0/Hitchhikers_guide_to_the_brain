@@ -151,6 +151,9 @@ PsychoPhysio:
 -[PsPM](https://github.com/bachlab/PsPM) not in the spm extensions website (but SHOULD be installed as an extension)
 
 
+Finally cool thems for matlab 
+https://github.com/scottclowe/matlab-schemer 
+# just run "schemer_import" and the choose the matrix.prf
 
 ## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
