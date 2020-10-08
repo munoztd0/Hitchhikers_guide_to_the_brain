@@ -199,7 +199,7 @@ Getting familiar with conda environmments could really get you out of a tone of 
 #### create minimal Python 3.7 env
 ```markdown
 conda create -y                 \
-      -n py37         \
+      -n py37                   \
       python=3.7                \
       matplotlib numpy
 ``` 
@@ -207,7 +207,7 @@ conda create -y                 \
 #### create minimal Python 2.7 env
 ```markdown
 conda create -y                 \
-      -n py27         \
+      -n py27                   \
       python=2.7                \
       matplotlib numpy
 ``` 
@@ -299,7 +299,7 @@ sudo visudo
 #you are now inside vi in "read" mode
 #press "a" to be in the "insert" mode
 #move to a line below  # Override built-in defaults
-Dafaults insults
+Defaults insults
 ```
 the -fuck command
 
