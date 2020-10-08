@@ -29,8 +29,8 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 - I assume your folder names are in english but if they are in another language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements").
 
 ## Linux / Unix <a name="linux"></a>
-First thing will be to get you hands on a Linux distribution, I myself use and recommend Budgie and Pop!OS, but we will assume you are on Ubuntu (anyhow any Debian-based distro should work as well).
-You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Budgie](https://ubuntubudgie.org/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).  
+First thing will be to get you hands on a Linux distribution, I myself use and recommend Pop!_OS, but we will assume you are on Ubuntu (anyhow any [Debian-based](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/KnoppixFamilyTree1210.svg/220px-KnoppixFamilyTree1210.svg.png) distribution should work as well).
+You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), [Pop!_OS](https://pop.system76.com/)) or to [dual boot Windows/Linux](https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/), or to [dual boot Mac/Linux](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733).  
 <p align="center">
 <img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="700">
 </p>
@@ -293,7 +293,7 @@ sudo apt install gimp gimp-gmic
 
 ### Fun hacks (AKA just for fun)
 #### Install "insults" to linux
-This will make your terinal "insult" you every time you mistype your password (it's hilarious trust me)
+This will make your terminal "insult" you every time you mistype your password (it's hilarious trust me)
 ```markdown
 sudo visudo
 #you are now inside vi in "read" mode
