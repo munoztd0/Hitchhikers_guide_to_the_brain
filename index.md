@@ -196,7 +196,21 @@ Getting familiar with conda environmments could really get you out of a tone of 
 <img src="https://opensource.com/sites/default/files/uploads/python_environment_xkcd.png" width="500">
 </p>
 
+#### create minimal Python 3.7 env
+```markdown
+conda create -y                 \
+      -n py37         \
+      python=3.7                \
+      matplotlib numpy
+``` 
 
+#### create minimal Python 2.7 env
+```markdown
+conda create -y                 \
+      -n py27         \
+      python=2.7                \
+      matplotlib numpy
+``` 
 
 ### FSL  <a name="int4"></a>
 FSL (pronounced "fossil") is pretty easy to [install](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation) through their 'fslinstaller.py'
