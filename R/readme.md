@@ -2,7 +2,7 @@
 
 #### Install R (4.0) on Linux!
 If you are on Linux and you absolutely NEED the newest version of R (4.0 at the moment) like I did, you are probably as pissed-off as I was when I saw that it is not anywhere near to be released yet.
-But if you don't fear the bleeding edge, I have a solution for you!
+But if you don't fear the bleeding edge, I have a solution for you! </br>
 First you can already download any [Rstudio](https://rstudio.com/products/rstudio/download/#download) version (still no Focal Fossa update though..)
 ```markdown
 #be sure to totally remove R if you already installed it 
