@@ -21,7 +21,6 @@ sudo apt install r-base r-base-core r-recommended r-base-dev gdebi-core
 wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5042-amd64.deb # that works for ubuntu 20 others might not
 sudo gdebi rstudio-1.2.5042-amd64.deb
 ```
- and get you other package from Rstudio now.
+ and get you other package from Rstudio now. </br>
  
- #### Change the default library options
- [Useful link](https://www.accelebrate.com/library/how-to-articles/r-rstudio-library)
+[Change the default library options](https://www.accelebrate.com/library/how-to-articles/r-rstudio-library)
