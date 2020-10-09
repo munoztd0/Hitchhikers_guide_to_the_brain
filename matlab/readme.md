@@ -117,5 +117,10 @@ PsychoPhysio:
 
 
 #### Cool themes for matlab 
-https://github.com/scottclowe/matlab-schemer 
-# just run "schemer_import" and the choose the matrix.prf
+Just downoad [matlab schemer](https://github.com/scottclowe/matlab-schemer)
+open matlab
+```markdown
+cd ~/Downloads/matlab-schemer
+schemer_import #just runs "schemer_import" 
+#and the choose the matrix.prf (or antoher theme)
+```
