@@ -1,5 +1,3 @@
-# Welcome to my little Hitchhiker's guide to the brain
-
 ## Matlab  <a name="matlab"></a>
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
