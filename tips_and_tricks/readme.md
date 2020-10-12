@@ -20,6 +20,37 @@ You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/i
 </p>
 
 
+## IDE (integrated development environment)  <a name="ide"></a>
+Here things might start to get personal...    <br/>
+<p align="center">
+<img src="https://image2.slideserve.com/4300633/slide1-n.jpg" width="700">
+</p>
+
+There is much debate on what is THE best IDE but here I will just tell you what I think is best to start with.
+### VS studio
+Get [Visual Studio Code](https://code.visualstudio.com/download) for long and heavy duty coding.
+It has thousand of cool features, great deb<a name="introduction"></a>ugging mode, and you can easyly choose which environement profile you want to be in.
+
+### Vim
+Use Vim to create and tinkle files in your terminal (or when you ssh connect to a remote server) 
+```markdown
+sudo apt-get install vim
+vim file.txt 
+```
+#### Basics commands in Vim
+This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges). 
+<br/>
+First you will be on a 'read-only' mode.  
+**Press 'a' to insert** or modify text (this is just a security so you don't change something by mystake).  
+Then you are free to type whatever you want or move to another lign (with the arrow keys the mouse will not help you here!) or press 'ctrl+shift+v' to paste any text you gave copied on your clipboard.  
+**Press 'esc' to escape** the insert mode and go back to 'read-only' mode.  
+**Press ':wq' + 'enter' to save and quit**.   
+<br/>
+-"Wait whhhat?!"  
+So basically the ':' is to start a command, the 'w' is to save ('write') modficiations and 'enter' just runs the command.  
+-**"What if I messed up ?"**  
+Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that will close the file without saving (here I added the '!' which is the 'force' command).  
+
 
 ### Zotero  <a name="zotero"></a>
 The snap store version of Zotero didn't work on my machines for whatever reasons so here is another way to get your Zotero working on Linux.
