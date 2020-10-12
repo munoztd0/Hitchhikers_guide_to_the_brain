@@ -153,7 +153,7 @@ PsychoPhysio:
 
 Finally cool thems for matlab 
 https://github.com/scottclowe/matlab-schemer 
-# just run "schemer_import" and the choose the matrix.prf
+Then just type "schemer_import" and choose the matrix.prf
 
 ## IDE (integrated development environment)  <a name="ide"></a>
 Here things might start to get personal...    <br/>
