@@ -29,3 +29,13 @@ sudo gdebi rstudio-1.2.5042-amd64.deb
  and get you other package from Rstudio now. </br>
  
 [Change the default library options](https://www.accelebrate.com/library/how-to-articles/r-rstudio-library)
+
+#### Manage R version
+Via (Anaconda)[http://github.com/munoztd0/Hitchhikers_guide_to_the_brain/python/readme.md]
+```markdown
+conda create -y                 \
+      -n r40                   \
+      r=4.0.0                \
+      r-essentials 
+# -n is the name, then the version, then the packages
+```
