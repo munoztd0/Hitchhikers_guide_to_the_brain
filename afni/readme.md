@@ -7,11 +7,9 @@ sudo apt-get install -y libv8-dev libgsl-dev libudunits2-dev
 
 # And then adding this PPAs
 sudo add-apt-repository -y "ppa:marutter/rrutter3.5"
-sudo add-apt-repository -y "ppa:marutter/c2d4u3.5"
 sudo apt update
-sudo apt install r-cran-rstan
-sudo apt-get install r-cran-shinystan
-sudo apt-get install r-cran-brms
+sudo apt install r-cran-rstan -y
+sudo apt-get install r-cran-shinystan r-cran-brms -y
 ```
 You can get a clean install !
 
