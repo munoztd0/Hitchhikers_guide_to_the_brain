@@ -53,12 +53,8 @@ Don't worry, **just press ':q!'** when you are in the 'read-only' mode and that 
 
 
 ### Zotero  <a name="zotero"></a>
-The snap store version of Zotero didn't work on my machines for whatever reasons so here is another way to get your Zotero working on Linux.
-```markdown
-sudo add-apt-repository ppa:smathot/cogscinl
-sudo apt-get update
-sudo apt-get install zotero-standalone
-```
+The snap store version of Zotero didn't work on my machines for whatever reasons so here is another way to get your Zotero working on Ubuntu 20 [here](https://askubuntu.com/questions/1124724/zotero-does-not-lauch)
+
 #### Install Better BibTex
 Better BibTex is just so much easier to work with since it ouput a comprehensible output so go to [Better BibTex](https://github.com/retorquere/zotero-better-bibtex/releases).  
 Right click on the '.xpi' and chose'save link as'  
@@ -73,9 +69,11 @@ So one solution I personnaly suggest, just buy an external drive (you can have 5
 
 ### Cool software <a name="tweaks"></a>
 #### GIMP #the snap one doesn't work properly
+```markdown
 sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 sudo apt update
 sudo apt install gimp gimp-gmic
+```
 
 ### Fun hacks (AKA just for fun)
 #### Install "insults" to linux
