@@ -10,8 +10,7 @@ sudo apt autoremove
 sudo apt update
 
 #You will need this 'key' to acces it (it's a new mirror that is not yet released)
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-#sudo apt install libssl-dev # install libraries
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80  --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo apt update
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
 #Install new version of R (4.0)
