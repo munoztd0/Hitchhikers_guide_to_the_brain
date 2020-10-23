@@ -8,11 +8,8 @@ prefix='sub-' #prefix your are looking for
 cd ${path_to_dir}
 
 
-arr=`ls -d ${prefix}*` #creates an array of the directories names
 
-for ((i=0; i<${#arr[@]}; i++)); #loop through array
-do
-  #do something to each element of array
-  cp ${home}/OBIWAN/${arr[$i]}/ses-first/anat/${arr[$i]}_ses-first_run-01_T1w.nii.gz ${home}/OBIWAN/DERIVATIVES/CONN/ANAT/
+for file in ${prefix}*; do
+    cp ${home}/OBIWAN/DERIVATIVES/PREPROC/$(basename "$file")/ses-second/func/$(basename "$file")_ses-second_task-PIT_smoothBold.nii ${home}/OBIWAN/DERIVATIVES/CONN/PIT/
+    echo "$(basename "$file")" # this is two be sure the name is ok
 done
-
