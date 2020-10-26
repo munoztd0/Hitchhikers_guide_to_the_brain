@@ -19,9 +19,8 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 9. [Cool tips / Hacks / Tweaks](#tweaks)
 
 
-[editor on GitHub](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/edit/gh-pages/index.md) 
+[All tutorials can be found here!](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/tree/gh-pages/tutos)
 
-[link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
 
 ## Introduction <a name="intro"></a>
 - Everything _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
@@ -336,4 +335,4 @@ Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?
 
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
-
+[link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
