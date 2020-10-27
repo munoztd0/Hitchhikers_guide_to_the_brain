@@ -172,7 +172,7 @@ sudo apt-get install vim
 vim file.txt 
 ```
 #### Basics commands in Vim
-This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges). 
+This will create a 'file.txt' file (if it doesn't exist already otherwise it just modifies it) and opens vim editor (or put sudo in front if you want to create/modify a file with super user privileges).  
 <br/>
 First you will be on a 'read-only' mode.  
 **Press 'a' to insert** or modify text (this is just a security so you don't change something by mystake).  
