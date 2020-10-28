@@ -96,10 +96,10 @@ Double click on the spm12.zip to exctract the folder with the archive utility
 
 Then open up a terminal (either via the spotlight search or in Application -> Utilities)
 ```markdown
-mv -r ~/Downloads/spm12 /Applications/MATLAB_R2019a.app/toolbox/ 
-matlab & #this will open a matlab instance or you can just click on the matlab icon in your application
+mv ~/Downloads/spm12 /Applications/MATLAB_R2019a.app/toolbox/ 
 ```
-Then inside the matlab console
+Accept the pop-op window </br>
+Then open up matlab via applications and copy paste these lines </br>
 ```markdown
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
