@@ -37,11 +37,12 @@ You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/i
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
 
 ### 2. Download Matlab
-Go to [matlab home page](https://ch.mathworks.com/)
-Create an account or sign in and add a license number (2537).
-Then click on the license to start the dowload menu. Choose whatever OS you need (Linux, Mac, Windows).
-Choose the version of matlab. Here I recommend you choose matlab 2019a since the newer version have issue with the server license authentification (at least for Mac and Linux).
-Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a _Switch_ account).
+Go to [matlab home page](https://ch.mathworks.com/) </br>
+Create an account or sign in and add a license number (2537). </br>
+Then click on the license to start the dowload menu. </br>
+Choose whatever OS you need (Linux, Mac, Windows). </br>
+Choose the version of matlab. Here I recommend you choose matlab 2019a since the newer version have issue with the server license authentification (at least for Mac and Linux). </br>
+Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a _Switch_ account). </br>
 
 ### 3. Install Matlab
 #### 3.a For Linux
