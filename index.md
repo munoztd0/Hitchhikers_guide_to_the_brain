@@ -39,8 +39,8 @@ Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/dist
 ### 2. Download Matlab
 Go to [matlab home page](https://ch.mathworks.com/) </br>
 Create an account or sign in </br>
-/!\ Add a new a license number (2537) (this can be done by cliking on your profile and then on go under Licences)/!\ </br>
-Then click on the license to start the dowload menu. </br>
+/!\ Add a new a license number (2537) (this can be done by cliking on your profile and then on go under Licences) /!\ </br>
+Then click on the license "_server:matlab_" to start the dowload menu. </br>
 Choose whatever OS you need (Linux, Mac, Windows). </br>
 Choose the version of matlab. Here I recommend you choose matlab 2019a since the newer version have issue with the server license authentification (at least for Mac and Linux). </br>
 Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a _Switch_ account). </br>
