@@ -18,9 +18,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 9. [Timeshift / Backups](#backup)
 9. [Cool tips / Hacks / Tweaks](#tweaks)
 
-
 [All tutorials can be found here!](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/tree/gh-pages/tutos)
-
 
 ## Introduction <a name="intro"></a>
 - Everything _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
@@ -58,7 +56,7 @@ sudo ./install
 #### 3.b For Mac or Windows
 Just double click on the matlab file installer (matlab_R2019a_maci64.dmg or matlab_R2019a_win64.exe)
 
-### 4. Finisg Installing (all OS)
+### 4. Finish Installing (all OS)
 Now you will have to sign in to your MathWorks account and follow the matlab installer (try to keep the defaults settings so the rest of the tutorial works smoothly otherwie you will need to adapt accordingly).
 Choose the newtork license (2537).
 Then, when prompted for the license file you need to select (browse) the "network.lic" file inside your "Downloads" folder you downloaded earlier.
