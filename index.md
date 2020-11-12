@@ -319,7 +319,7 @@ Submit final jobs, debug on your machine first.
 What if I don't want to memorize those commands and type them each time? <br/>
 
 #### On Linux and mac:
-You can create "aliases" that will act as shortcut commands. THIS IS SO USEFUL!
+You can create "aliases" that will act as shortcut commands. THIS IS A HUGE TIMESAVER! <br/>
 Inside a terminal: (You can replace vim by any editor (gedit, emacs, etc..))
 ```m
 vim ~/.bash_profile #This will open you "user profile"
