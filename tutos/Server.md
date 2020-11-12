@@ -1,4 +1,4 @@
-[Link to tutorials on how to connect and run you scipts on a server](https://drive.switch.ch/index.php/s/uZQpjqkURPk30Xm)
+[Link to tutorials on how to run you scipts on a server](https://drive.switch.ch/index.php/s/uZQpjqkURPk30Xm)
 
 ### Install stuff
 If your are not connected to the Unige WIFI -> You will need to install the [UniGE VPN client](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
