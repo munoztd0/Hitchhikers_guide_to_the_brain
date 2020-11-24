@@ -330,6 +330,7 @@ vim ~/.bash_profile #This will open you "user profile"
 Then inside you want to press "a" to swith to "insert" mode. <br/>
 Navigate to the bottom of the file ans start typing your aliases. <br/>
 ! NB: there should not be any spaces between your alias name and the command between apostrophes '' !<br/>
+<br/>
 Here an example of useful aliases:<br/>
 ```bash
 # my super cool aliases
@@ -413,8 +414,9 @@ Defaults insults #and add this line below  "# Override built-in defaults"
 ```
 #### Install "theFuck"
 The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
-![gif with examples][https://github.com/nvbn/thefuck/blob/master/example.gif]
-
+<p align="center">
+   <img  src="https://github.com/nvbn/thefuck/blob/master/example.gif" width="300">
+</p>
 
 #### Tweaking your computer (on cisa's Dell desktops)
 First and foremost you should NEVER tweak boot options if you are not 200% sure of what you are doing. Now if you want (as I did) to speed up your boot time, I found out that disabling the (unused) legacy boot mode (since I assume that you are running UEFI boot on most linux distros).
@@ -425,6 +427,10 @@ you should now disable Secure boot. Save, apply and restart. That's it you will 
 
 ### TODO
 
+Bids
+<p align="center">
+   <img  src="https://imgs.xkcd.com/comics/standards.png" width="300">
+</p>
 
 expliqer comment ls -n softlink tidy
 
