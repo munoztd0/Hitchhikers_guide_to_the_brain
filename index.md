@@ -69,7 +69,7 @@ Choose the newtork license (2537).
 Then, when prompted for the license file you need to select (browse) the "network.lic" file inside your "Downloads" folder you downloaded earlier.
 
 #### 4.a For Linux only
-```console
+```bash
 # replace _cisa_ by YOUR USERNAME
 sudo chmown -R cisa /usr/local/MATLAB/R2019a/
 ```
