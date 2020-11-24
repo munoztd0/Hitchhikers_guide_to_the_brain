@@ -53,7 +53,7 @@ Finally [download the license file for UniGe](https://drive.switch.ch/index.php/
 ### 3. Install Matlab
 #### 3.a For Linux
 Fire up a terminal (ctrl+alt+t) and copy paste these lines
-```console
+```bash
 cd ~/Dowloads/
 unzip matlab.zip
 cd matlab
@@ -382,6 +382,11 @@ Right click on the '.xpi' and chose'save link as'
 Now form Zotero go to 'Tools' -> 'Add-ons' and under the gear icon choose 'Install add-on from fille..'  
 Browse to where you saved the '.xpi' file and that's it! #ThankLaviniaForThisOne 
 
+<p align="center">
+    <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300"/>
+   <img  src="https://www.explainxkcd.com/wiki/images/6/6f/file_extensions.png" width="300"/>
+</p>
+
 ### Backups <a name="backup"></a>
 #### Simple backups with timeshift (need an external drive though)
 Well this one is a biggie. We are all scared to loose are data so backing it up is a must do. The university suggest to use TSM (tivoli storage manager) but it's garbage. First, it'sa huge pain to install on Linux, second it doesn't alert you if there is a problem to fix, third it's IBM.
@@ -408,7 +413,7 @@ Defaults insults #and add this line below  "# Override built-in defaults"
 ```
 #### Install "theFuck"
 The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
-[![gif with examples][https://github.com/nvbn/thefuck/blob/master/example.gif]][https://github.com/nvbn/thefuck/blob/master/example.gif]
+![gif with examples][https://github.com/nvbn/thefuck/blob/master/example.gif]
 
 
 #### Tweaking your computer (on cisa's Dell desktops)
@@ -434,10 +439,7 @@ Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?
    <img  src="https://imgs.xkcd.com/comics/automation.png" width="300"/>
 </p>
 
-<p align="center">
-    <img  src="https://i.ibb.co/qdVJhj9/53204889-1307657079386313-5400484366092599296-n.jpg" width="300"/>
-   <img  src="https://www.explainxkcd.com/wiki/images/6/6f/file_extensions.png" width="300"/>
-</p>
+
 
 
 <p align="center">
