@@ -53,7 +53,7 @@ Finally [download the license file for UniGe](https://drive.switch.ch/index.php/
 ### 3. Install Matlab
 #### 3.a For Linux
 Fire up a terminal (ctrl+alt+t) and copy paste these lines
-```markdown
+```console
 cd ~/Dowloads/
 unzip matlab.zip
 cd matlab
@@ -69,7 +69,7 @@ Choose the newtork license (2537).
 Then, when prompted for the license file you need to select (browse) the "network.lic" file inside your "Downloads" folder you downloaded earlier.
 
 #### 4.a For Linux only
-```markdown
+```console
 # replace _cisa_ by YOUR USERNAME
 sudo chmown -R cisa /usr/local/MATLAB/R2019a/
 ```
