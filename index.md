@@ -81,14 +81,14 @@ I also personally recommend to install/take a look at these extensions according
 [EEG lab](https://sccn.ucsd.edu/eeglab/download.php) for timeseries analysis
 
 #### 5.a For Linux 
-```markdown
+```bash
 cd ~/Downloads
 unzip spm12.zip
 sudo mv -r ~/Downloads/spm12 /usr/local/MATLAB/R2019a/toolbox/ #this will ask your admin password
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```markdown
+```bash
 addpath /usr/local/MATLAB/R2019a/toolbox/spm12
 savepath
 ```
@@ -100,12 +100,12 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 Double click on the spm12.zip to exctract the folder with the archive utility
 
 Then open up a terminal (either via the spotlight search or in Application -> Utilities)
-```markdown
+```bash
 mv ~/Downloads/spm12 /Applications/MATLAB_R2019a.app/toolbox/ 
 ```
 Accept the pop-op window </br>
 Then open up matlab via applications and copy paste these lines </br>
-```markdown
+```bash
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
@@ -116,14 +116,14 @@ If you want to install a SPM toolbox you should do the same thing but instead of
 
 For example to install MarsBar on mac:
 Go to [SPM extensions](https://www.fil.ion.ucl.ac.uk/spm/ext/) and download MarsBar
-```markdown
+```bash
 cd ~/Downloads
 unzip marsbar-0.44.zip ## replace 0.44 by the version you have downloaded
 sudo mv -r ~/Downloads/marsbar-0.44 /usr/local/MATLAB/R2019a/toolbox/spm12/toolbox/marsbar #here I change the name "marsbar-0.44" to "marsbar" so its easier to remember and deal with 
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```markdown
+```bash
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/marsbar
 savepath
 ```
@@ -172,7 +172,7 @@ It has thousand of cool features, great deb<a name="introduction"></a>ugging mod
 
 ### Vim
 Use Vim to create and tinkle files in your terminal (or when you ssh connect to a remote server) 
-```markdown
+```bash
 sudo apt-get install vim
 vim file.txt 
 ```
@@ -201,7 +201,7 @@ Getting familiar with conda environmments could really get you out of a tone of 
 </p>
 
 #### create minimal Python 3.7 env
-```markdown
+```bash
 conda create -y                 \
       -n py37                   \
       python=3.7                \
@@ -209,7 +209,7 @@ conda create -y                 \
 ``` 
 
 #### create minimal Python 2.7 env
-```markdown
+```bash
 conda create -y                 \
       -n py27                   \
       python=2.7                \
@@ -219,14 +219,14 @@ conda create -y                 \
 ### FSL  <a name="int4"></a>
 FSL (pronounced "fossil") is pretty easy to [install](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation) through their 'fslinstaller.py'
 BUT be sure to use python2 as follows:
-```markdown
+```bash
 sudo apt install python2
 python2 fslinstaller.py
 ``` 
 ### AFNI  <a name="afni"></a>
 AFNI is definitely a bit more trickier (for Linux user at least) but it's really well documented [here](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/index.html)  
 Something that really helped me out was to install 'tcsh' so I could follow their tutorials more strickly (they use C-shell instead of _standard_ 'bash' (Bourne Again SHell) command language which goes along with their geek philosophy)
-```markdown
+```bash
 sudo apt-get install -y tcsh
 #so you can run their command
 tcsh @update.afni.binaries ...
@@ -239,21 +239,21 @@ After the hustle you might be scared (I was..) by AFNI because the GUI looks mor
 #### Install R (4.0) on Linux!
 If you are on Linux and you absolutely NEED the newest version of R (4.0 at the moment) like I did, you are probably as pissed-off as I was when I saw that it is not anywhere near to be released yet.
 But if you don't fear the bleeding edge, I have a solution for you!
-```markdown
-#be sure to totally remove R if you already installed it 
+```bash
+# be sure to totally remove R if you already installed it 
 sudo apt-get purge r-base* r-recommended r-cran-*
 sudo apt autoremove
 sudo apt update
 
-#You will need this 'key' to acces it (it's a new mirror that is not yet released)
+# You will need this 'key' to acces it (it's a new mirror that is not yet released)
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 #sudo apt install libssl-dev # install libraries
 sudo apt update
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
-#Install new version of R (4.0)
+# Install new version of R (4.0)
 sudo apt install r-base r-base-core r-recommended r-base-dev gdebi-core
-#Then you can just download [Rstudio](https://rstudio.com/products/rstudio/download/#download) (still no Focal Fossa update though..)
-#or via wget 
+# Then you can just download [Rstudio](https://rstudio.com/products/rstudio/download/#download) (still no Focal Fossa update though..)
+# or via wget 
 wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5042-amd64.deb # that works for ubuntu 20 others might not
 sudo gdebi rstudio-1.2.5042-amd64.deb
 ```
@@ -275,7 +275,7 @@ If your are not connected to the Unige WIFI -> You will need to install the [Uni
 
 #### On Linux:
 Install via a terminal
-```m
+```bash
 sudo apt-get install sshfs -y
 ```
 #### On Mac:
@@ -290,19 +290,19 @@ Replace "username" by the user name the administrator of cisa-calc has given you
 
 #### No graphic interface -> only terminal
 To connect to the cisa-calc: 
-```m
+```bash
 ssh username@cisa-calc.unige.ch
 ```
 #### To exit
 Just type: 
-```m
+```bash
 exit
 ```
 #### With graphic interface -> browse files seamlessly
 To mount (or "fuse") a folder from the cisa-calc to your machine: 
 First you will have to create an empty folder on your machine (e.g., /home/user/SERVER). <br/>
 Then, run this command:
-```m
+```bash
 sshfs username@cisa-calc.unige.ch:/home/username/ /home/user/SERVER
 ```
 Explanation: The first term "/home/username/" is the folder you want to mount FROM the server TO your machine. <br/>
@@ -310,7 +310,7 @@ The second term "/home/user/SERVER" is the folder you want you TO RECEIVE the da
 
 #### To unmount
 Just type: 
-```m
+```bash
 umount -l /home/user/SERVER
 ```
 
@@ -324,16 +324,16 @@ What if I don't want to memorize those commands and type them each time? <br/>
 #### On Linux and mac:
 You can create "aliases" that will act as shortcut commands. THIS IS A HUGE TIMESAVER! <br/>
 Inside a terminal: (You can replace vim by any editor (gedit, emacs, etc..))
-```m
+```bash
 vim ~/.bash_profile #This will open you "user profile"
 ```
 Then inside you want to press "a" to swith to "insert" mode. <br/>
 Navigate to the bottom of the file ans start typing your aliases. <br/>
 ! NB: there should not be any spaces between your alias name and the command between apostrophes '' !<br/>
 Here an example of useful aliases:<br/>
-```m
+```bash
 # my super cool aliases
-#moving through files
+# moving through files
 alias cd...='cd ../../../' #go back 3 folders
 alias cd....='cd ../../../../' #go back 4 folders
 alias ll='ls -alF' #show all files (included hidden files) and permissions
@@ -354,14 +354,14 @@ alias del='gio trash' # put file to the trash instead to remove them (only linux
 alias searchH='find /home/user/ -name' # seach in user directory
 alias searchA='sudo find / -name' #search in whole machine
 
-#ONLY LINUX UPDATE BOOT & POWEROFF
+# ONLY LINUX UPDATE BOOT & POWEROFF
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias reboot='sudo /sbin/reboot'
 alias poweroff='sudo /sbin/poweroff'
 alias halt='sudo /sbin/halt'
 alias shutdown='sudo /sbin/shutdown'
 
-#function to quickly add commit and push gits
+# function to quickly (lazyly) add commit and push gits
 function lazygit() {
             git add .
             git commit -a -m "$1"
@@ -371,7 +371,7 @@ function lazygit() {
 
 ### Zotero  <a name="zotero"></a>
 The snap store version of Zotero didn't work on my machines for whatever reasons so here is another way to get your Zotero working on Linux.
-```markdown
+```bash
 sudo add-apt-repository popa:smathot/cogscinl
 sudo apt-get update
 sudo apt-get install zotero-standalone
@@ -390,21 +390,26 @@ So one solution I personnaly suggest, just buy an external drive (you can have 5
 
 ### Cool software <a name="tweaks"></a>
 #### GIMP #the snap one doesn't work properly
+```bash
 sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 sudo apt update
 sudo apt install gimp gimp-gmic
+```
 
 ### Fun hacks (AKA just for fun)
-#### Install "insults" to linux
+#### Install "insults"
 This will make your terminal "insult" you every time you mistype your password (it's hilarious trust me)
-```markdown
+```bash
 sudo visudo
 #you are now inside vi in "read" mode
 #press "a" to be in the "insert" mode
-#move to a line below  # Override built-in defaults
-Defaults insults
+Defaults insults #and add this line below  "# Override built-in defaults"
+#now press "esc" (to quit insert mode) followed by ":wq" (to save and exit)
 ```
-the -fuck command
+#### Install "theFuck"
+The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
+[![gif with examples][https://github.com/nvbn/thefuck/blob/master/example.gif]][https://github.com/nvbn/thefuck/blob/master/example.gif]
+
 
 #### Tweaking your computer (on cisa's Dell desktops)
 First and foremost you should NEVER tweak boot options if you are not 200% sure of what you are doing. Now if you want (as I did) to speed up your boot time, I found out that disabling the (unused) legacy boot mode (since I assume that you are running UEFI boot on most linux distros).
@@ -412,13 +417,15 @@ First and foremost you should NEVER tweak boot options if you are not 200% sure 
 Just press F2 (or maybe F12 depending on your model) at the sight of the Dell logo until you see the [BIOS menu](https://kbimg.dell.com/library/KB/DELL_ORGANIZATIONAL_GROUPS/DELL_GLOBAL/Content%20Team/UEFI_BIOS_Add_Boot_Option.png). From there you can change your Boot list options from Legacy to UEFI. Then you should [disable (uncheck) Legacy Option ROMs](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dell.com%2Fsupport%2Farticle%2Fde-ch%2Fsln306176%2Fxps-13-9365-slow-post-and-poor-performance-in-bios&psig=AOvVaw0WmMWuLP2GPnlESRTFIZ0i&ust=1601472719428000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLirmve8juwCFQAAAAAdAAAAABAD). Then, under the "Security" tab
 you should now disable Secure boot. Save, apply and restart. That's it you will boot in ~12 seconds now instead of the huge 1m30 before.
 
+
+### TODO
+
+
 expliqer comment ls -n softlink tidy
 
 Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?usp=sharing
 
-
 ### scripts
-### TOdo
 
 ## images
 
