@@ -1,6 +1,6 @@
 
 ## Introduction <a name="intro"></a>
-- Everything _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
+- Everything here _should_ work on Linux (at least for Debian-based distros but if you want a tuto for other distros (i.e Arch-based) I will definetely be happy to help. 
 - Some things might defer on Mac OS but if you [install Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew) it will definitely be easier (meaning you could theorically change all the "apt" commands by "brew". 
 - I assume your folder names are in english but if they are in another language (i.e. french) you will have to change certain commands (e.g. "Downloads" become "Telechargements").
 
@@ -12,12 +12,6 @@ You can choose to only have one main OS ([Ubuntu](https://ubuntu.com/tutorials/i
 </p>
 
 
-### Remote Server (AKA Cisa-Calc) <a name="server"></a> 
-
-<p align="center">
-   <img  src="https://www.cyberciti.biz/media/new/cms/2020/09/sandwich.png" width="270"/>
-   <img  src="https://imgs.xkcd.com/comics/incident.png" width="500"/>
-</p>
 
 
 ## IDE (integrated development environment)  <a name="ide"></a>
