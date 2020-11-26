@@ -1,6 +1,9 @@
 [Link to MRI tutorial materials (MRI basics, data management/BIDS formating, univariate and multivariate analysis, VBM and connectivity)](https://drive.switch.ch/index.php/s/OsNWFebnmE8u6jn)
 
 ### BIDS (minimal example)
+
+Require to have python >= 3.0 and docker installed
+
 ```bash
 #!/bin/bash
 #instal bidskit via Docker
