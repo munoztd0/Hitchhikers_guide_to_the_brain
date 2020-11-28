@@ -38,6 +38,41 @@ But if you are reluctant to dual boot Linux I really recommend you start by inst
 </p>
 
 ## Matlab  <a name="matlab"></a>
+## Free alternative to Matlab -> GNU Octave ! (below is how to get actual Matlab but please try this first for open science sake!)
+Yes this is not a click-bait or anything. You don't need to pay to have Matlab to run the free available toolboxes (e.g. SPM, EEGLAB and psychotoolbox). </br> And you should also consider that Octave consume less RAM than Matlab so it's a good alternative for older computers.
+
+### Install GNU Octave
+
+#### For Linux
+```bash
+sudo apt-get install octave-control octave-image octave-io octave-optim octave-signal octave-statistics liboctave-dev gnuplot
+```
+And that's it! You can run pretty much anything Matlab can.
+
+#### For Mac
+Please follow [this guide](https://wiki.octave.org/Octave_for_macOS)
+
+### Install an external toolbox (here -> SPM12)
+[Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
+
+```bash
+sudo mv ~/Downloads/spm12 /usr/local/octave/
+cd /usr/local/octave/spm12/src
+make PLATFORM=octave
+make PLATFORM=octave install
+``` 
+
+Now in octave (type octave in a terminal or open the octave application)
+```octave
+%% Add SPM12 to the function search path
+cd /usr/local/octave/
+addpath /usr/local/octave/spm12;
+savepath
+%% Start SPM12
+spm fmri
+```
+VOILA!
+## Actual Matlab
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
 
@@ -71,7 +106,7 @@ Then, when prompted for the license file you need to select (browse) the "networ
 #### 4.a For Linux only
 ```bash
 # replace _cisa_ by YOUR USERNAME
-sudo chmown -R cisa /usr/local/MATLAB/R2019a/
+sudo chown -R cisa /usr/local/MATLAB/R2019a/
 ```
 
 ### 5. Install an external toolbox (here -> SPM12)
@@ -88,7 +123,7 @@ sudo mv -r ~/Downloads/spm12 /usr/local/MATLAB/R2019a/toolbox/ #this will ask yo
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```bash
+```octave
 addpath /usr/local/MATLAB/R2019a/toolbox/spm12
 savepath
 ```
@@ -105,7 +140,7 @@ mv ~/Downloads/spm12 /Applications/MATLAB_R2019a.app/toolbox/
 ```
 Accept the pop-op window </br>
 Then open up matlab via applications and copy paste these lines </br>
-```bash
+```octave
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
@@ -123,7 +158,7 @@ sudo mv -r ~/Downloads/marsbar-0.44 /usr/local/MATLAB/R2019a/toolbox/spm12/toolb
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```bash
+```octave
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/marsbar
 savepath
 ```
@@ -155,8 +190,9 @@ PsychoPhysio:
 -[PsPM](https://github.com/bachlab/PsPM) not in the spm extensions website (but SHOULD be installed as an extension)
 
 
-Finally cool thems for matlab 
-https://github.com/scottclowe/matlab-schemer 
+#### BONUS
+Cool themes for matlab 
+https://github.com/scottclowe/matlab-schemer </br>
 Then just type "schemer_import" and choose the matrix.prf
 
 ## IDE (integrated development environment)  <a name="ide"></a>
