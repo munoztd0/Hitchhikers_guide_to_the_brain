@@ -8,7 +8,7 @@ Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 1. [Introduction](#linux)
 2. [Linux / Unix](#linux)
    <!-- 1. [Sub paragraph](#subparagraph1) -->
-3. [Matlab (via UniGe)](#matlab)
+3. [Matlab](#matlab)
 3. [IDE](#ide)
 4. [Anaconda / Python](#ananconda)
 5. [FSL](#fsl)
@@ -37,11 +37,11 @@ But if you are reluctant to dual boot Linux I really recommend you start by inst
 <img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="700">
 </p>
 
-## Matlab  <a name="matlab"></a>
-## Free alternative to Matlab -> GNU Octave ! (below is how to get actual Matlab but please try this first for open science sake!)
+## Octave OR Matlab via UniGe= <a name="matlab"></a>
+## 1. GNU Octave ! Free alternative to Matlab -> (below is how to get actual Matlab but please try this first for open science sake!)
 Yes this is not a click-bait or anything. You don't need to pay to have Matlab to run the free available toolboxes (e.g. SPM, EEGLAB and psychotoolbox). </br> And you should also consider that Octave consume less RAM than Matlab so it's a good alternative for older computers.
 
-### Install GNU Octave
+### 1.a Install GNU Octave
 
 #### For Linux
 ```bash
@@ -52,7 +52,7 @@ And that's it! You can run pretty much anything Matlab can.
 #### For Mac
 Please follow [this guide](https://wiki.octave.org/Octave_for_macOS)
 
-### Install an external toolbox (here -> SPM12)
+### 1.b Install an external toolbox (here -> SPM12)
 [Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
 
 ```bash
@@ -71,12 +71,13 @@ savepath
 %% Start SPM12
 spm fmri
 ```
-VOILA!
-## Actual Matlab
-### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
+VOILA! 
+
+## 2 Matlab (via Unige network license)
+### 2.a Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
 
-### 2. Download Matlab
+### 2.b Download Matlab
 Go to [matlab home page](https://ch.mathworks.com/) </br>
 Create an account or sign in </br>
 /!\ Add a new a license number (2537) (this can be done by cliking on your profile and then on go under Licences) /!\ </br>
@@ -85,8 +86,8 @@ Choose whatever OS you need (Linux, Mac, Windows). </br>
 Choose the version of matlab. Here I recommend you choose matlab 2019a since the newer version have issue with the server license authentification (at least for Mac and Linux). </br>
 Finally [download the license file for UniGe](https://drive.switch.ch/index.php/s/CGaD8jZTPr7bNnF). (You might need a _Switch_ account). </br>
 
-### 3. Install Matlab
-#### 3.a For Linux
+### 2.c Install Matlab
+#### For Linux
 Fire up a terminal (ctrl+alt+t) and copy paste these lines
 ```bash
 cd ~/Dowloads/
@@ -95,27 +96,27 @@ cd matlab
 unzip matlab_R2019a_glnxa64.zip #or whichever version 
 sudo ./install 
 ```
-#### 3.b For Mac or Windows
+#### For Mac or Windows
 Just double click on the matlab file installer (matlab_R2019a_maci64.dmg or matlab_R2019a_win64.exe)
 
-### 4. Finish Installing (all OS)
+### 2.d Finish Installing (all OS)
 Now you will have to sign in to your MathWorks account and follow the matlab installer (try to keep the defaults settings so the rest of the tutorial works smoothly otherwie you will need to adapt accordingly).
 Choose the newtork license (2537).
 Then, when prompted for the license file you need to select (browse) the "network.lic" file inside your "Downloads" folder you downloaded earlier.
 
-#### 4.a For Linux only
+#### For Linux only
 ```bash
 # replace _cisa_ by YOUR USERNAME
 sudo chown -R cisa /usr/local/MATLAB/R2019a/
 ```
 
-### 5. Install an external toolbox (here -> SPM12)
+### 2.e Install an external toolbox (here -> SPM12)
 [Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
 I also personally recommend to install/take a look at these extensions according to your needs:
 [Design optimisation](https://www.bobspunt.com/easy-optimize-x/) by Bob spunt
 [EEG lab](https://sccn.ucsd.edu/eeglab/download.php) for timeseries analysis
 
-#### 5.a For Linux 
+#### For Linux 
 ```bash
 cd ~/Downloads
 unzip spm12.zip
@@ -131,7 +132,7 @@ Here it is, that's the proper way to install an external toolbox on matlab.
 BONUS: If you want to install a SPM toolbox you should do the same thing but instead of "/usr/local/MATLAB/R2019a/toolbox/" you will put
 "/usr/local/MATLAB/R2019a/toolbox/spm12/toolbox/"
 
-#### 5.b For Mac
+#### For Mac
 Double click on the spm12.zip to exctract the folder with the archive utility
 
 Then open up a terminal (either via the spotlight search or in Application -> Utilities)
@@ -145,7 +146,7 @@ addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
 
-### 5.2 Install a SPM extensions
+### 2.f Install a SPM extensions
 If you want to install a SPM toolbox you should do the same thing but instead of "/Applications/MATLAB_R2019a.app/toolbox/" you will put
 "/Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/"
 
