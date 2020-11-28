@@ -1,4 +1,39 @@
-## Matlab  <a name="matlab"></a>
+## Free alternative to Matlab -> GNU Octave ! (below is how to get actual Matlab but please try this first for open science sake!)
+Yes this is not a click-bait or anything. You don't need to pay to have Matlab to run the free available toolboxes (e.g. SPM, EEGLAB and psychotoolbox). </br>
+
+### 1. Install GNU Octave
+
+#### For Linux
+```bash
+sudo apt-get install octave-control octave-image octave-io octave-optim octave-signal octave-statistics liboctave-dev gnuplot
+```
+And that's it! You can run pretty much anything Matlab can.
+
+### For Mac
+Please follow [this guide](https://wiki.octave.org/Octave_for_macOS)
+
+### 2. Install an external toolbox (here -> SPM12)
+[Download SPM](https://www.fil.ion.ucl.ac.uk/spm/software/download/) here version 12.
+
+```bash
+sudo mv ~/Downloads/spm12 /usr/local/octave/
+cd /usr/local/octave/spm12/src
+make PLATFORM=octave
+make PLATFORM=octave install
+``` 
+
+Now in octave (type octave in a terminal or open the octave application)
+```octave
+%% Add SPM12 to the function search path
+cd /usr/local/octave/
+addpath /usr/local/octave/spm12;
+savepath
+%% Start SPM12
+spm fmri
+```
+VOILA!
+
+## Matlab 
 ### 1. Install VPN unige (these matlab instalation only works if you are on the UniGE VPN)
 Follow these instructions [Install VPN UniGe all OS](https://plone.unige.ch/distic/pub/reseau/doc-vpn)
 
@@ -12,7 +47,7 @@ Finally [download the license file for UniGe](https://drive.switch.ch/index.php/
 ### 3. Install Matlab
 #### 3.a For Linux
 Fire up a terminal (ctrl+alt+t) and copy paste these lines
-```markdown
+```bash
 cd ~/Dowloads/
 unzip matlab.zip
 cd matlab
@@ -28,9 +63,9 @@ Choose the newtork license (2537).
 Then, when prompted for the license file you need to select (browse) the "network.lic" file inside your "Downloads" folder you downloaded earlier.
 
 #### 4.a For Linux only
-```markdown
+```bash
 # replace _cisa_ by YOUR USERNAME
-sudo chmown -R cisa /usr/local/MATLAB/R2019a/
+sudo chown -R cisa /usr/local/MATLAB/R2019a/
 ```
 
 ### 5. Install an external toolbox (here -> SPM12)
@@ -40,14 +75,14 @@ I also personally recommend to install/take a look at these extensions according
 [EEG lab](https://sccn.ucsd.edu/eeglab/download.php) for timeseries analysis
 
 #### 5.a For Linux 
-```markdown
+```bash
 cd ~/Downloads
 unzip spm12.zip
 sudo mv -r ~/Downloads/spm12 /usr/local/MATLAB/R2019a/toolbox/ #this will ask your admin password
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```markdown
+```octave
 addpath /usr/local/MATLAB/R2019a/toolbox/spm12
 savepath
 ```
@@ -59,12 +94,12 @@ BONUS: If you want to install a SPM toolbox you should do the same thing but ins
 Double click on the spm12.zip to exctract the folder with the archive utility
 
 Then open up a terminal (either via the spotlight search or in Application -> Utilities)
-```markdown
+```bash
 mv -r ~/Downloads/spm12 /Applications/MATLAB_R2019a.app/toolbox/ 
 matlab & #this will open a matlab instance or you can just click on the matlab icon in your application
 ```
 Then inside the matlab console
-```markdown
+```octave
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12
 savepath
 ```
@@ -75,14 +110,14 @@ If you want to install a SPM toolbox you should do the same thing but instead of
 
 For example to install MarsBar on mac:
 Go to [SPM extensions](https://www.fil.ion.ucl.ac.uk/spm/ext/) and download MarsBar
-```markdown
+```bash
 cd ~/Downloads
 unzip marsbar-0.44.zip ## replace 0.44 by the version you have downloaded
 sudo mv -r ~/Downloads/marsbar-0.44 /usr/local/MATLAB/R2019a/toolbox/spm12/toolbox/marsbar #here I change the name "marsbar-0.44" to "marsbar" so its easier to remember and deal with 
 matlab & #this will open a matlab instance
 ```
 Then inside the matlab console
-```markdown
+```octave
 addpath /Applications/MATLAB_R2019a.app/toolbox/spm12/toolbox/marsbar
 savepath
 ```
@@ -117,8 +152,10 @@ PsychoPhysio:
 #### Cool themes for matlab 
 Just downoad [matlab schemer](https://github.com/scottclowe/matlab-schemer)
 open matlab
-```markdown
+```octave
 cd ~/Downloads/matlab-schemer
 schemer_import #just runs "schemer_import" 
 #and the choose the matrix.prf (or antoher theme)
 ```
+
+
