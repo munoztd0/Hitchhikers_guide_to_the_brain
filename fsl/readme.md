@@ -7,3 +7,4 @@ BUT be sure to use python2 as follows:
 sudo apt install python2.7
 python2.7 fslinstaller.py
 ``` 
+on pop OS https://neurostars.org/t/installing-fsl-on-pop-os-20-04-lts/10817
