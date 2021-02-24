@@ -451,7 +451,7 @@ Defaults insults #and add this line below  "# Override built-in defaults"
 ```
 #### Install "theFuck"
 The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
-[![gif with instant mode][instant-mode-gif-link]][instant-mode-gif-link]
+[![gif with examples][examples-link]][examples-link]
 
 #### Tweaking your computer (on cisa's Dell desktops)
 First and foremost you should NEVER tweak boot options if you are not 200% sure of what you are doing. Now if you want (as I did) to speed up your boot time, I found out that disabling the (unused) legacy boot mode (since I assume that you are running UEFI boot on most linux distros).
@@ -490,4 +490,4 @@ Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
 [link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
-[instant-mode-gif-link]:   https://raw.githubusercontent.com/nvbn/thefuck/master/example_instant_mode.gif
+[examples-link]:   https://raw.githubusercontent.com/nvbn/thefuck/master/example.gif
