@@ -37,7 +37,7 @@ But if you are reluctant to dual boot Linux I really recommend you start by inst
 <img src="https://www.explainxkcd.com/wiki/images/4/40/cautionary.png" width="700">
 </p>
 
-## Octave OR Matlab via UniGe= <a name="matlab"></a>
+## Octave OR Matlab via UniGe <a name="matlab"></a>
 ## 1. GNU Octave ! Free alternative to Matlab -> (below is how to get actual Matlab but please try this first for open science sake!)
 Yes this is not a click-bait or anything. You don't need to pay to have Matlab to run the free available toolboxes (e.g. SPM, EEGLAB and psychotoolbox). </br> And you should also consider that Octave consume less RAM than Matlab so it's a good alternative for older computers.
 
@@ -451,9 +451,7 @@ Defaults insults #and add this line below  "# Override built-in defaults"
 ```
 #### Install "theFuck"
 The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
-<p align="center">
-   <img  src="https://github.com/nvbn/thefuck/blob/master/example.gif" width="300">
-</p>
+[![gif with instant mode][instant-mode-gif-link]][instant-mode-gif-link]
 
 #### Tweaking your computer (on cisa's Dell desktops)
 First and foremost you should NEVER tweak boot options if you are not 200% sure of what you are doing. Now if you want (as I did) to speed up your boot time, I found out that disabling the (unused) legacy boot mode (since I assume that you are running UEFI boot on most linux distros).
@@ -492,3 +490,4 @@ Purves:  https://drive.google.com/file/d/15Qaw-PSCSXHCSBWY_PxnQK2N7tYVt0Py/view?
 
 <!--Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
 [link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)
+[instant-mode-gif-link]:   https://raw.githubusercontent.com/nvbn/thefuck/master/example_instant_mode.gif
