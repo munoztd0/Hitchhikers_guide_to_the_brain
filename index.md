@@ -450,7 +450,7 @@ Defaults insults #and add this line below  "# Override built-in defaults"
 #now press "esc" (to quit insert mode) followed by ":wq" (to save and exit)
 ```
 #### Install "theFuck"
-The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)
+The Fuck is a magnificent app, that corrects errors in previous console commands. So check it out on [github](https://github.com/nvbn/thefuck)<br/>
 ![gif with examples](https://raw.githubusercontent.com/nvbn/thefuck/master/example.gif)
 
 #### Tweaking your computer (on cisa's Dell desktops)
