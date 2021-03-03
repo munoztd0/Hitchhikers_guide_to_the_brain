@@ -36,7 +36,8 @@ Then, run this command:
 sshfs username@cisa-calc.unige.ch:/home/username/ /home/user/SERVER
 ```
 Explanation: The first term "/home/username/" is the folder you want to mount FROM the server TO your machine. <br/>
-The second term "/home/user/SERVER" is the folder you want you TO RECEIVE the data FROM ther server.
+The second term "/home/user/SERVER" is the folder you want you TO RECEIVE the data FROM ther server. <br/>
+After that you will have a seemless to upload/download files with the server!
 
 #### To unmount
 Just type: 
