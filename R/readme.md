@@ -51,7 +51,6 @@ IRkernel::installspec() #install IRkernel to work on R in jupyter
 ```
 
 
-
 Fire up a jupyter notebook and now you can choose between R and Python. </br>
 But for now you it's still on or the other.. We just need to install Rpy2 now </br>
 ```bash
@@ -78,6 +77,9 @@ Second cell plot the data with R
 %%R -i df  #this line transmits the object "df" from python to R
 # Plot the DataFrame df
 library(ggplot2)
-ggplot(data=df) + geom_point(aes(x=A, y=B, color=C))
-`` 
+ggplot(data=df) + geom_point(aes(x=A, y=B, color=C)) + theme(text = element_text(family = 'Helvetica-Narrow'))
+```
+Here you go, python strenght and R beauty in one file !  </br>
+
+PS: if you have issues with fonts (like I did) you might want to run "sudo apt-get install ^fonts-* " 
 
