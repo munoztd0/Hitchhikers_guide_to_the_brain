@@ -3,7 +3,7 @@
 #### Install R (4.0) on Linux!
 If you are on Linux and you absolutely NEED the newest version of R (4.0 at the moment) like I did, you are probably as pissed-off as I was when I saw that it is not anywhere near to be released yet.
 But if you don't fear the bleeding edge, I have a solution for you! </br>
-```markdown
+```bash
 #be sure to totally remove R if you already installed it 
 sudo apt-get purge r-base* r-recommended r-cran-*
 sudo apt autoremove
@@ -38,3 +38,14 @@ conda create -y                 \
       r-essentials 
 # -n is the name, then the version, then the packages
 ```
+
+#### Work on a R and Python within the same Jupyter notebook 
+Yes jupyter is not only for python, it's actually "language agnostic" and it's called ju-pyt-er because it's mainly meant to work on Julia - Python and R. </br>
+First you need to have installed [Anaconda](https://www.anaconda.com/products/individual)  </br>
+Then  and install these packages (just select you closest CRAN mirror </br>
+```bash
+R  #open up R (not in Rstudio for this to work)
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest')) # install these packages (just select you closest CRAN mirror)
+devtools::install_github('IRkernel/IRkernel') #install IRkernel to work on R in jupyter
+```
+
