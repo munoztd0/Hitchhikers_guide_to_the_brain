@@ -5,6 +5,7 @@ _'So once you do know what the question actually is, you'll know what the answer
 Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)
 
 <a href="links.html">Tutorials for data science</a>
+[All tutorials for data science!](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/tree/gh-pages/links)
 
 # Table of contents
 1. [Introduction](#linux)
