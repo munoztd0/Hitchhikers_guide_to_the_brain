@@ -20,11 +20,13 @@ Moreover, if you are interested in the project don't hesitate to share your stuf
 ## Guides for installing and setting up diverse softwares <a name="install"></a>
 A gathering of tutorials to install and setup different tools to analyze data in psychology and neuroscience.
 
+[Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/install) 
+
 Includes : 
 - How to install and/or setup R, Python (with Anaconda) and MATLAB/Octave
 - How to install and/or setup SPM (and some toolbox), FSL and AFNI
 - Basic of linux/Unix progamming, cools tips and tricks
-[Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/install) 
+
 
 
 ## Tutorials for data science <a name="tutos"></a>
