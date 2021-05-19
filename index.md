@@ -42,6 +42,8 @@ A non exaustive list of skills/methods we are going to focus on:
   - Automatisation (creating functions)
   - and of course Data wrangling and vizualisation
 
+Is this workshop suited for you ? [check here](https://github.com/munoztd0/Data_Wrangling_NeuroMaster/blob/main/README.md)
+
 [Part I](https://munoztd0.github.io/Data_Wrangling_NeuroMaster/) 
 
 [Responses Part I (in R) ](https://munoztd0.github.io/Response_work1/) 
