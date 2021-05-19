@@ -18,8 +18,9 @@ Another purpose is to create a network of people interested in Data Science and 
 Moreover, if you are interested in the project don't hesitate to share your stuff !
 
 ## Guides for installing and setting up diverse softwares <a name="install"></a>
-A gathering of tutorials to install and setup different tools to analyze data in psychology and neuroscience.<br/>
-Includes : </br>
+A gathering of tutorials to install and setup different tools to analyze data in psychology and neuroscience.
+
+Includes : 
 - How to install and/or setup R, Python (with Anaconda) and MATLAB/Octave
 - How to install and/or setup SPM (and some toolbox), FSL and AFNI
 - Basic of linux/Unix progamming, cools tips and tricks
