@@ -2,16 +2,42 @@
 
 _'So once you do know what the question actually is, you'll know what the answer means.'_     -Douglas Adams  
 
-Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)  </br>
 
-[Tutorials for data science](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/links)  </br>
 
+# Table of contents
+1. [Introduction](#intro)
+2. [Guides for installing and setting up diverse softwares](#install)
+3. [Tutorials for data science](#tutos)
+4. [Data wrangling workshops](#work)
+
+## Introduction <a name="intro"></a>
+
+
+## Guides for installing and setting up diverse softwares <a name="install"></a>
 [Guides for installing and setting up diverse softwares](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/install)  </br>
 
-[Responses to the data wrangling workshop for Neuroscience Master students Part I](https://munoztd0.github.io/Data_Wrangling_NeuroMaster/) </br>
 
-[Responses Part I (in R) ](https://munoztd0.github.io/Response_work1/)
-[Responses Part I (in Python)](https://github.com/munoztd0/Response_work1/blob/main/responses.ipynb)
+## Tutorials for data science <a name="tutos"></a>
+Useful (free) tutorials links and materials for data science in R, Pyhton and MATLAB: [Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/links)  </br>
+
+## Data wrangling workshops  <a name="work"></a>
+The main goal of these workshop series is to create the oppurtunity for Neuroscience master students to improve their skills in data wrangling through active problem solving (with hints and guidelines) that are representative of 'real world' problems that one will probably encounter in cogntive/affective neuroscience research.  </br>
+
+A non exaustive list of skills/methods we are going to focus on: 
+  - Code reproducibility (dynamic programming)
+  - Code understandability (comments, style, Rmarkdown, Jupyter notebook)
+  - Version control and code availability (github)
+  - Terminal familiarity
+  - Automatisation (creating functions)
+  - and of course Data wrangling and vizualisation
+
+[Part I](https://munoztd0.github.io/Data_Wrangling_NeuroMaster/) </br>
+[Responses Part I (in R) ](https://munoztd0.github.io/Response_work1/) </br>
+[Responses Part I (in Python)](https://github.com/munoztd0/Response_work1/blob/main/responses.ipynb) </br>
+
+ </br> </br> </br>
+
+Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)  </br>
 
 [link to guide](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/)  </br>
 
