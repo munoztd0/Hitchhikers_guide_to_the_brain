@@ -11,14 +11,23 @@ _'So once you do know what the question actually is, you'll know what the answer
 4. [Data wrangling workshops](#work)
 
 ## Introduction <a name="intro"></a>
-
+The idea behind this website is to make available all the ressources I have gathered/created over the years make other people's life easier. </br>
+Another purpose is to create a network of people interested in Data Science and a place for them to find information about it, so really feel free to ask for new stuff and comment on what'i snot working for you. </br>
+Moreover, if you are interested in the project don't hesitate to share your stuff !
 
 ## Guides for installing and setting up diverse softwares <a name="install"></a>
-[Guides for installing and setting up diverse softwares](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/install)  </br>
+A gathering of tutorials to install and setup different tools to analyze data in psychology and neuroscience.</br>
+Includes : </br>
+- How to install and/or setup R, Python (with Anaconda) and MATLAB/Octave
+- How to install and/or setup SPM (and some toolbox), FSL and AFNI
+- Basic of linux/Unix progamming, cools tips and tricks
+[Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/install)  </br>
 
 
 ## Tutorials for data science <a name="tutos"></a>
-Useful (free) tutorials links and materials for data science in R, Pyhton and MATLAB: [Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/links)  </br>
+Useful (free) tutorials links and materials to learn to do data science in R, Pyhton and MATLAB: [Link to the page](https://munoztd0.github.io/Hitchhikers_guide_to_the_brain/links)  </br>
+
+Other iscellaneous tutorials and slides about stats (bayesian and frequentist), machine learning (AI, Reinforcement learning, computational modeling), MRI (technicalities and analysis), onlines studies (pros and cons about different recruitment platforms and online experiment builders), Linux/server stuff, more data science/visualization.. [can be found here!](https://github.com/munoztd0/Hitchhikers_guide_to_the_brain/tree/gh-pages/tutos)
 
 ## Data wrangling workshops  <a name="work"></a>
 The main goal of these workshop series is to create the oppurtunity for Neuroscience master students to improve their skills in data wrangling through active problem solving (with hints and guidelines) that are representative of 'real world' problems that one will probably encounter in cogntive/affective neuroscience research.  </br>
