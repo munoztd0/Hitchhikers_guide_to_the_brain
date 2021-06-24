@@ -58,7 +58,6 @@ Is this workshop suited for you ? [check here](https://github.com/munoztd0/Data_
 
 
 
-
 Credit for all the comic goes to [Randall Munroe](https://xkcd.com/)  
 
 
