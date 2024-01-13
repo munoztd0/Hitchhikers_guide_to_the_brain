@@ -1,6 +1,8 @@
 
 # **Collection of helpful ressources for data science career**
 
+0\. Full Stack Data Scientist Tutorials Collection: https://www.kdnuggets.com/2021/09/path-full-stack-data-science.html
+
 1\. Python :  https://lnkd.in/grD8XUS6
 
 2\. Pandas :  https://lnkd.in/g4yTJ7CP
